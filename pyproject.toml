@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yandex-practicum-sprint-7"
+version = "0.1.0"
+description = ""
+authors = ["zhuykov.nikita <nik_4design@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.15"
+faiss-cpu = "^1.12.0"
+langchain = "^0.3.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
