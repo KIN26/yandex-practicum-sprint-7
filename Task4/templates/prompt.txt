@@ -1,0 +1,16 @@
+{% if use_cot %}
+{% include 'cot_introductory_notes.txt' %}
+{% else %}
+{% include 'fs_introductory_notes.txt' %}
+{% endif %}
+
+Вопрос: {{question}}
+
+{% if not database_context %}
+Контекст: Информация не найдена в базе знаний.
+Ответ: Я не знаю.
+{% else %}
+Контекст: {{database_context}}
+Ответ:
+{% endif %}
+
