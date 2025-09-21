@@ -1,0 +1,13 @@
+.gitignore
+
+docker-compose.yaml
+Dockerfile
+.docker
+.dockerignore
+
+**/__pycache__/
+**/.mypy_cache/
+**/*.py[cod]
+*/.pytest_cache/
+
+.venv
